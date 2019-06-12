@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>The "Microsoft Edge" Browser object was not found in the Object Repository.</Name>
+    <ErrorText>The "Microsoft Edge" Browser object was not found in the Object Repository.
+Check the Object Repository to confirm that the object exists or to find the correct name for the object.</ErrorText>
+    <Description>The &amp;quot;Microsoft Edge&amp;quot; Browser object was not found in the Object Repository.&lt;BR/&gt;Check the Object Repository to confirm that the object exists or to find the correct name for the object.&lt;BR/&gt;Line (21): &amp;quot;Browser(&amp;quot;Microsoft Edge&amp;quot;).Navigate &amp;quot;https://www.google.com/search?source=hp&amp;amp;ei=snhnXICHE7Cw5wKY5Zi4DQ&amp;amp;q=mercury+tours&amp;amp;oq=mercur&amp;amp;gs_l=psy-ab.1.1.35i39l2j0i67l2j0i131i67j0l2j0i67j0i131l2.68557.72412..74668...7.0..0.137.855.0j7......0....1..gws-wiz.....6.zxUCUF2L2GY&amp;quot;&amp;quot;. </Description>
+    <StartTime>2019-02-15 21:45:02</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Browser("Microsoft Edge").Navigate "https://www.google.com/search?source=hp&ei=snhnXICHE7Cw5wKY5Zi4DQ&q=mercury+tours&oq=mercur&gs_l=psy-ab.1.1.35i39l2j0i67l2j0i131i67j0l2j0i67j0i131l2.68557.72412..74668...7.0..0.137.855.0j7......0....1..gws-wiz.....6.zxUCUF2L2GY"]]></Scripts>
+          <LineNo><![CDATA[21]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>6d7d7f7fbb144ba0b48623d7a2005227</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2019-02-15 21:45:10</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>acefa71999c14690a0c903009731a8da</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2019-02-15 21:45:01</StartTime>
+    <Duration>9</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>b8571ac5cba2486e837f50333b9212a5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2019-02-15 21:44:39</StartTime>
+    <Duration>31</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>58258a6cfe1d4631b34ef1f11fa3cb40</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Google Chrome</Name>
+        <Path>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Path>
+        <Version />
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>http://www.google.com</Info>
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.51</ToolVersion>
+    <ToolVersionStringLiteral>14.51</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2019-02-15 21:44:38</StartTime>
+    <Duration>32</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <ParallelRunnerEnvInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <ID />
+        <Manufacturer />
+        <Model />
+        <OsType />
+        <OsVersion />
+        <DesktopBrowser />
+        <ErrorMessage>Failed to launch the browser.</ErrorMessage>
+      </ParallelRunnerEnvInfo>
+      <IconKey>8407cea1bb2244e6ae9ab0ae2d38b40d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-05:00:00</Timezone>
+      <Locale>中文(中国)</Locale>
+      <User>cscdandelion</User>
+      <CpuInfo>Intel(R) Core(TM) i7-4710HQ CPU @ 2.50GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>12171</TotalMemory>
+      <HostName>DESKTOP-O888P1N</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res62</ResultName>
+    <RunStartTime>2019-02-15 21:44:38</RunStartTime>
+    <Timezone>-05:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.51</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.51</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
